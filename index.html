@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dictagame</title>
+    <!--
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> 
+    -->
+    <link type="text/css" rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <img src="img\logo.png" width="10%">
+    <div class="topnav">
+
+        <a class="active" href="index.html">Jugar</a>
+        <a href="#news">Novedades</a>
+        <a href="form.html">Contacto</a>
+        <a href="us.html">Nosotros</a>
+    </div>
+
+    <header>
+        <center>
+            <h2 id="nivel">Pulsa el botón "Jugar" para empezar</h2>
+        </center>
+        <input id="chord-1" value="1" type="radio" name="chord" class="tecla" />
+        <input id="chord-2" value="2" type="radio" name="chord" class="tecla" />
+        <input id="chord-3" value="3" type="radio" name="chord" class="tecla" />
+        <input id="chord-4" value="4" type="radio" name="chord" class="tecla" />
+        <input id="chord-5" value="5" type="radio" name="chord" class="tecla" />
+        <input id="chord-6" value="6" type="radio" name="chord" class="tecla" />
+        <input id="chord-7" value="7" type="radio" name="chord" class="tecla" />
+        <ul>
+            <li id="1" class="nota"><label for="chord-1">DO</label></li>
+            <li id="2" class="nota"><label for="chord-2">RE</label></li>
+            <li id="3" class="nota"><label for="chord-3">MI</label></li>
+            <li id="4" class="nota"><label for="chord-4">FA</label></li>
+            <li id="5" class="nota"><label for="chord-5">SOL</label></li>
+            <li id="6" class="nota"><label for="chord-6">LA</label></li>
+            <li id="7" class="nota"><label for="chord-7">SI</label></li>
+        </ul>
+    </header>
+
+    <footer>
+        <button type="button" id="btnIniciar" class="button boton">Jugar</button>
+        <button type="button" id="btnReiniciar" class="button boton">Reiniciar</button>
+    </footer>
+
+    <!--SCRIPTS DE PRUEBA AL FINAL-->
+    <script>console.log("Consulta README.md para consultar los comandos");</script>
+    <script src="js/crear_tabla.js"></script>
+    <script src="js/insertar_usuario.js"></script>
+    <script src="js/consultar_tabla.js"></script>
+    <script src="js/borrar_tabla.js"></script>
+
+
+
+</body>
+
+</html>
